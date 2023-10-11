@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/pine/BlankAR.unity
     guid: 6bdce89659816455b9f906fc62d19910
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/District.unity
     guid: 19c7afece8b8e554291b6c50e756aef1
   m_configObjects:

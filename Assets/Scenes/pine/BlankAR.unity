@@ -491,6 +491,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1659859599}
   - component: {fileID: 1659859598}
+  - component: {fileID: 1659859601}
+  - component: {fileID: 1659859600}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -531,6 +533,102 @@ Transform:
   - {fileID: 1354141930}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1659859600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659859597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
+--- !u!114 &1659859601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659859597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 4776765576899091622, guid: 3738bd65ede154463b2c35064b9e5fdb,
+    type: 3}
+  m_DetectionMode: 1
+--- !u!1001 &3433225428473990321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 507.37164
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1237.7947
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0014648438
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469690195336243352, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050935756291861871, guid: 16180c13c1cd35d4f9450009c3c32a19,
+        type: 3}
+      propertyPath: m_Name
+      value: AR Default Plane
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16180c13c1cd35d4f9450009c3c32a19, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -539,3 +637,4 @@ SceneRoots:
   - {fileID: 1659859599}
   - {fileID: 1639175390}
   - {fileID: 656880748}
+  - {fileID: 3433225428473990321}
