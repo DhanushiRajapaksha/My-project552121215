@@ -414,8 +414,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -15, y: 0}
-  m_SizeDelta: {x: 20, y: 20}
+  m_AnchoredPosition: {x: -45.4, y: 0.000027701}
+  m_SizeDelta: {x: 86.1237, y: 82.057}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &206634064
 MonoBehaviour:
@@ -468,6 +468,7 @@ GameObject:
   - component: {fileID: 325913499}
   - component: {fileID: 325913498}
   - component: {fileID: 325913502}
+  - component: {fileID: 325913503}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -573,6 +574,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16164531c395c664fa6082cbcf2658c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &325913503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325913497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2852b1170b9037543b2d0f1e3c3e8a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DropdownList: {fileID: 0}
 --- !u!1 &660964112
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,7 +900,7 @@ GameObject:
   - component: {fileID: 1010474673}
   - component: {fileID: 1010474672}
   m_Layer: 5
-  m_Name: Dropdown
+  m_Name: DropdownList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -964,11 +978,55 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Option A
+    - m_Text: Ampara
       m_Image: {fileID: 0}
-    - m_Text: Option B
+    - m_Text: Anuradhapura
       m_Image: {fileID: 0}
-    - m_Text: Option C
+    - m_Text: Badulla
+      m_Image: {fileID: 0}
+    - m_Text: Batticaloa
+      m_Image: {fileID: 0}
+    - m_Text: Colombo
+      m_Image: {fileID: 0}
+    - m_Text: Galle
+      m_Image: {fileID: 0}
+    - m_Text: Gampaha
+      m_Image: {fileID: 0}
+    - m_Text: Hambantota
+      m_Image: {fileID: 0}
+    - m_Text: Jaffna
+      m_Image: {fileID: 0}
+    - m_Text: Kalutara
+      m_Image: {fileID: 0}
+    - m_Text: Kandy
+      m_Image: {fileID: 0}
+    - m_Text: Kegalle
+      m_Image: {fileID: 0}
+    - m_Text: Kilinochchi
+      m_Image: {fileID: 0}
+    - m_Text: Kurunegala
+      m_Image: {fileID: 0}
+    - m_Text: Mannar
+      m_Image: {fileID: 0}
+    - m_Text: Matale
+      m_Image: {fileID: 0}
+    - m_Text: Matara
+      m_Image: {fileID: 0}
+    - m_Text: Monaragala
+      m_Image: {fileID: 0}
+    - m_Text: Mullaitivu
+      m_Image: {fileID: 0}
+    - m_Text: Nuwara Eliya
+      m_Image: {fileID: 0}
+    - m_Text: Polonnaruwa
+      m_Image: {fileID: 0}
+    - m_Text: Puttalam
+      m_Image: {fileID: 0}
+    - m_Text: Ratnapura
+      m_Image: {fileID: 0}
+    - m_Text: Trincomalee
+      m_Image: {fileID: 0}
+    - m_Text: Vavuniya
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1315,7 +1373,7 @@ GameObject:
   - component: {fileID: 1362233247}
   - component: {fileID: 1362233246}
   m_Layer: 5
-  m_Name: Button
+  m_Name: continueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1872,7 +1930,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Option A
+  m_text: Ampara
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
